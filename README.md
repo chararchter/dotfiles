@@ -1,5 +1,6 @@
-These are my dotfiles for backend software development on Mac.
+This is my dotfile for backend software development on Mac.
 
+# Install everything from Brewfile with Homebrew
 On a fresh installation of macOS:
 
 1. Open Terminal.
@@ -28,3 +29,27 @@ On a fresh installation of macOS:
    ```bash
    brew bundle
    ```
+
+# Troubleshooting
+After installing packages:
+
+1. Verify installation:
+   ```bash
+   <command> --version
+    ```
+
+
+2. If the version is missing or unexpected:
+
+Check which executable is being used:
+  ```bash
+  which <command>
+  type -a <command>
+  ```
+
+If an old location is cached, clear it:
+  ```bash
+  hash -r
+  ```
+
+Run the version check again.
