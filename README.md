@@ -50,6 +50,17 @@ brew bundle dump --force --file=~/Code/dotfiles/Brewfile
 ```
 
 
+# Scala
+
+Scala is needed because platform-api [platform-api](https://github.com/opentargets/platform-api) is written in Scala.
+
+```bash
+sdk install sbt
+sdk install scala
+sdk install scalacli 
+```
+
+
 # Rust
 
 Rust is managed with rustup rather than Homebrew because it is the official toolchain manager and is assumed by the Rust Book and most of the Rust ecosystem.
