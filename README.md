@@ -61,6 +61,21 @@ sdk install scalacli
 ```
 
 
+# Java
+
+List Java versions
+
+```bash
+sdk list java 
+```
+
+Install 21. version because that's the version in [platform-api .sdkmanrc](https://github.com/opentargets/platform-api/blob/4e04aaa289d7d7a3e79e966679da12eb0fc82aab/.sdkmanrc#L3)
+
+```bash
+sdk install java 21.0.11-amzn
+```
+
+
 # Rust
 
 Rust is managed with rustup rather than Homebrew because it is the official toolchain manager and is assumed by the Rust Book and most of the Rust ecosystem.
