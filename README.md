@@ -39,6 +39,15 @@ On a fresh installation of macOS:
    brew bundle
    ```
 
+# Rust
+
+Rust is managed with rustup rather than Homebrew because it is the official toolchain manager and is assumed by the Rust Book and most of the Rust ecosystem.
+
+Rustup is installed following the [official installation instructions](https://rust-lang.org/tools/install/):
+   ```bash
+   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   ```
+
 # Troubleshooting
 
 After installing the packages:

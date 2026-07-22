@@ -9,8 +9,6 @@ brew "helm"
 brew "kubernetes-cli"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.14"
-# Safe, concurrent, practical language
-brew "rust"
 # Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
 # Terraform
