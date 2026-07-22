@@ -39,6 +39,17 @@ On a fresh installation of macOS:
    brew bundle
    ```
 
+# Update Brewfile
+
+After installing or removing packages with Homebrew, regenerate the Brewfile to keep it in sync with the current system state.
+
+My Brewfile is stored in `~/Code/dotfiles`:
+
+```bash
+brew bundle dump --force --file=~/Code/dotfiles/Brewfile
+```
+
+
 # Rust
 
 Rust is managed with rustup rather than Homebrew because it is the official toolchain manager and is assumed by the Rust Book and most of the Rust ecosystem.
